@@ -17,8 +17,8 @@ jobs:
       - name: Create zip archive
         run: |
           mkdir release_content
-          cp -r "[Original]/*" release_content/
-          cp -r "[Custom]/*" release_content/
+          cp -r [Original]/* release_content/
+          cp -r [Custom]/* release_content/
           cd release_content
           zip -r release.zip .
 
