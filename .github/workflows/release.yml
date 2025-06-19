@@ -21,6 +21,8 @@ jobs:
           cp -r "[Custom]"/* release_content/
           cd release_content
           zip -r release.zip .
+          mv release.zip ..
+          cd ..
 
       - name: Delete existing release
         uses: dev-drprasad/delete-tag-and-release@v1.1
