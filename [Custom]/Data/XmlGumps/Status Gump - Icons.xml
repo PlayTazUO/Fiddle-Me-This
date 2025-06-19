@@ -23,11 +23,11 @@
 
 <!-- Stat Block Right -->
 <text x="126" y="81" hue="1153" updates="TRUE" font="uo-unicode-1" size="16">HP</text>
-<text x="181" y="81" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" align="right" width="50">{hp}/{maxhp}</text>
+<text x="181" y="81" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" width="70">{hp}/{maxhp}</text>
 <text x="126" y="106" hue="1153" updates="TRUE" font="uo-unicode-1" size="16">MP</text>
-<text x="181" y="106" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" align="right" width="50">{mana}/{maxmana}</text>
+<text x="181" y="106" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" width="70">{mana}/{maxmana}</text>
 <text x="126" y="131" hue="1153" updates="TRUE" font="uo-unicode-1" size="16">SP</text>
-<text x="181" y="131" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" align="right" width="50">{stam}/{maxstam}</text>
+<text x="181" y="131" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" width="70">{stam}/{maxstam}</text>
 
 <!-- Physical Block Left -->
 <text x="16" y="161" hue="54" updates="TRUE" font="uo-unicode-1" size="16">Physical</text>
@@ -77,9 +77,9 @@
 <text x="126" y="391" hue="1153" updates="TRUE" font="uo-unicode-1" size="16">WT</text>
 <text x="176" y="391" hue="1281" updates="TRUE" font="uo-unicode-1" size="16">{weight}/{maxweight}</text>
 <text x="126" y="416" hue="1153" updates="TRUE" font="uo-unicode-1" size="16">GD</text>
-<text x="176" y="416" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" width="200">{gold}</text>
+<text x="176" y="416" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" width="75">{gold}</text>
 <text x="126" y="441" hue="1153" updates="TRUE" font="uo-unicode-1" size="16">FR</text>
-<text x="176" y="441" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" width="200">{pets}/{petsmax}</text>
+<text x="176" y="441" hue="1281" updates="TRUE" font="uo-unicode-1" size="16" width="75">{pets}/{petsmax}</text>
 
 <!-- Icons -->
 <image id="62001" x="40" y="80" hue="0"/>
