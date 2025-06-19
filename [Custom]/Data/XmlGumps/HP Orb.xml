@@ -10,5 +10,6 @@
 
 <!-- HP Orb -->
 <hp_bar_image x="10" y="10" hue_normal="0" hue_poisoned="0" direction="up" image_background="14953" image_foreground="14954" image_foreground_poisoned="14956" />
+<text x="0" y="70" hue="1" updates="TRUE" font="alagard" size="16" width="181" align="center">{hp}/{maxhp}</text>
 
 </gump>
