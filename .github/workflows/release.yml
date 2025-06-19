@@ -17,9 +17,10 @@ jobs:
       - name: Create zip archive
         run: |
           mkdir release_content
-          cp -r "[Original]" release_content/
-          cp -r "[Custom]" release_content/
-          zip -r release.zip release_content
+          cp -r "[Original]/*" release_content/
+          cp -r "[Custom]/*" release_content/
+          cd release_content
+          zip -r release.zip .
 
       - name: Delete existing release
         uses: dev-drprasad/delete-tag-and-release@v1.1
