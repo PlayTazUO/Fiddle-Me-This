@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- Default Position When Gump is Opened -->
-<gump x="1872" y="1007">
+<gump x="100" y="100" saveposition="true">
 
 <!-- Orb Background Frame - Use this one for left side corner -->
 <!-- <image id="14952" hue="0" x="0" y="0"/> -->

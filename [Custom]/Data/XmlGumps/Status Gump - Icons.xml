@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <!-- This is the default position, change this to your liking -->
-<gump x="2304" y="367">
+<gump x="100" y="100" saveposition="true">
 
 <!-- Background Image -->
 <image id="62000"/>
